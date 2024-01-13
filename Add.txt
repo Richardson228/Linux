@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]
+then 
+  echo "Podana niewlasciwa ilosc argumentow"
+  exit 1
+else
+  name_new_file=$1
+fi
+
